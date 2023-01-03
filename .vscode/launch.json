@@ -30,6 +30,34 @@
             "MIMode": "gdb", 
             "miDebuggerPath": "/usr/bin/gdb", 
             "preLaunchTask": "build_multiple" 
-        }
+        },
+        {
+            "name": "run_multiple",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build_multiple",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            }
+        },
+        {
+            "name": "run_single",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build_single",
+            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            }
+        },
     ]
 }
