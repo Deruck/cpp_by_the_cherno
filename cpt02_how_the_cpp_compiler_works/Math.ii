@@ -1,9 +1,9 @@
-# 1 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/Math.cpp"
+# 1 "./Math.cpp"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 1 "<command-line>" 2
-# 1 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/Math.cpp"
+# 1 "./Math.cpp"
 
 
 
@@ -13,10 +13,10 @@ int Multiply(int a, int b)
     int result = a * b;
     return result;
 
-# 1 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/EndBrace.h" 1
+# 1 "./EndBrace.h" 1
 }
-# 11 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/Math.cpp" 2
-# 20 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/Math.cpp"
+# 11 "./Math.cpp" 2
+# 20 "./Math.cpp"
 # 1 "/usr/include/c++/9/iostream" 1 3
 # 36 "/usr/include/c++/9/iostream" 3
        
@@ -28632,4 +28632,4 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 20 "/raid/jiangyuzhen/Documents/cpp_by_the_cherno/cpt02_how_the_cpp_compiler_works/Math.cpp" 2
+# 20 "./Math.cpp" 2
